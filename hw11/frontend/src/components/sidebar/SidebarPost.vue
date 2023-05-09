@@ -1,0 +1,32 @@
+<template>
+    <section>
+        <div class="header">
+            {{ post.title }}
+        </div>
+        <div class="body">
+            {{ post.text }}
+        </div>
+        <div class="footer">
+            <a href="#" @click.prevent="onPostPage">View all</a>
+        </div>
+    </section>
+</template>
+
+<script>
+export default {
+    name: "SidebarPost",
+    props: ["post"],
+    methods: {
+        onPostPage: function () {
+            this.$root.$emit("onChangePage", "PostPage", {post: this.post});
+            this.$root.$emit("onUpdatePost", this.post.id);
+        }
+    }
+}
+</script>
+
+<style scoped>
+section {
+    margin-bottom: 1rem;
+}
+</style>

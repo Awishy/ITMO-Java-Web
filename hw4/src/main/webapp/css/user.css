@@ -1,0 +1,32 @@
+main .user-box {
+    border: var(--boder);
+    border-radius: var(--border-radius);
+    padding: 0.7rem;
+}
+
+main .user-box .user-info {
+    display: inline-block;
+}
+
+main .user-box .user-info .user-name {
+    font-size: 1.7rem;
+}
+
+main .user-box img {
+    float: right;
+    display: inline-block;
+}
+
+main .previous-next-user a {
+    color: lightgray;
+    font-size: 2rem;
+}
+
+main .previous-next-user a:link {
+    color:var(--caption-color);
+    text-decoration: none;
+}
+
+main .previous-next-user a:visited {
+    color:var(--caption-color);
+}

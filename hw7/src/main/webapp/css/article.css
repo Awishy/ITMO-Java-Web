@@ -1,0 +1,44 @@
+main article .title {
+    font-size: 1.3rem;
+    color: var(--caption-color);
+    font-weight: bold;
+}
+
+main article .information {
+    color: var(--border-color);
+    padding-top: 0.3rem;
+}
+
+main article .body {
+    border-left: 4px solid var(--border-color);
+    margin-top: 0.4rem;
+    padding-left: 0.9rem;
+    white-space: pre-wrap;
+}
+
+main article .attachment {
+    color: var(--border-color);
+    padding-left: 19px;
+}
+
+main article .footer {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.2rem;
+}
+
+main article .footer .left * {
+    vertical-align: middle;
+}
+
+main article .footer .left {
+    display: inline;
+    color: green;
+    font-weight: bold;
+}
+
+main article .footer .right {
+    display: inline;
+    float: right;
+    padding-right: 0.5rem;
+}

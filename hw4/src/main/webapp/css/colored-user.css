@@ -1,0 +1,17 @@
+.colored-user {
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.user-RED {
+    color: RED;
+}
+
+.user-GREEN {
+    color: GREEN;
+}
+
+.user-BLUE {
+    color: BLUE;
+}

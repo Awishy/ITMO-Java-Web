@@ -1,0 +1,52 @@
+main article {
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+main article .title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main article .title {
+    font-size: 1.3rem;
+    color: var(--caption-color);
+    font-weight: bold;
+}
+
+main article .information {
+    padding-top: 0.3rem;
+}
+
+main article .body {
+    border-left: 4px solid var(--border-color);
+    padding-left: 0.9rem;
+}
+
+main article .attachment {
+    color: var(--border-color);
+    list-style-image: url("/img/paperclip-16x16.png");
+    padding-left: 19px;
+}
+
+main article .footer {
+    border: var(--boder);
+    border-radius: var(--border-radius);
+    padding: 0.2rem;
+}
+
+main article .footer .left * {
+    vertical-align: middle;
+}
+
+main article .footer .left {
+    display: inline;
+    color: green;
+    font-weight: bold;
+}
+
+main article .footer .right {
+    display: inline;
+    float: right;
+    padding-right: 0.5rem;
+}
